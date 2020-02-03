@@ -1,0 +1,300 @@
+@charset "UTF-8";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  line-height: 2;
+  font-family: 'Noto Sans JP', "sans-serif";
+ }
+
+ p,h1,h2,h3,h4,h5,h6 {
+   margin-top: 0;
+ }
+
+ img {
+   vertical-align: bottom;
+ }
+
+ ul {
+   margin: 0;
+   padding: 0;
+ }
+
+ a {
+   color: #3583aa;
+   text-decoration: none;
+ }
+
+ a:visited {
+   color: #788d98;
+ }
+
+ a:hover {
+   text-decoration: underline;
+ }
+
+ header {
+   width: 1280px;
+   height: 100px;
+   margin: 0 auto;
+ }
+
+ .logo {
+   float: left;
+   margin-top: 10px;
+ }
+
+ .global-nav {
+   float: right;
+   margin-top: 20px
+ }
+
+ .global-nav li {
+   float: left;
+   margin: 0 20px;
+   font-size: 20px;
+   list-style: none;
+   font-family: 'Exo 2', sans-serif;
+ }
+
+ .global-nav li a {
+   color: #000;
+ }
+
+ .global-nav li a:hover {
+   border-bottom: 2px solid #000;
+   padding-bottom: 5px;
+   text-decoration: none;
+ }
+
+ #wrap {
+   clear: both;
+   background-color: #f4f5f7;
+   margin-top: 220px;
+   padding: 35px 0;
+ }
+
+ .content {
+   width: 1280px;
+   margin: 0 auto;
+ }
+
+ footer {
+   text-align: center;
+   padding: 20px 0;
+   color: #fff;
+   background-color: #ff7271;
+ }
+
+ footer small {
+   font-size: 12px;
+   font-family: 'Exo 2', 'sans-serif';
+ }
+
+ #index h1 {
+   font-size: 70px;
+   color: #000;
+   font-family: 'Exo 2', 'sans-serif';
+   line-height: 1;
+   margin-bottom: 100px;
+   text-align: center;
+   border: none;
+ }
+
+ #index .content {
+   margin-top: 150px;
+ }
+
+ .btn a {
+   background-color: #009cd3;
+   color: #fff;
+   font-size: 20px;
+   font-family: 'Exo 2', 'sans-serif';
+   display: block;
+   width: 185px;
+   text-align: center;
+   line-height: 50px;
+   margin-top: 20px;
+   border-radius: 5px;
+   border: 3px solid #009cd3;
+   text-align: center;
+ }
+
+.btn a:hover {
+  text-decoration: none;
+  background-color: #fff;
+  color: #009cd3;
+}
+
+#index footer {
+  width: 1280px;
+  color: #fff;
+  margin: 50px auto 0 auto;
+  text-align: center;
+  background-color: transparent;
+}
+
+#index {
+  background-image: url(../images-2/top40.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#about {
+  background-image: url(../images-2/top60.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+.main-center {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Exo 2', 'sans-serif';
+  font-size: 36px;
+  border-bottom: 1px solid #ccc;
+}
+
+h2 {
+  font-family: 'Exo 2', 'sans-serif';
+  font-size: 24px;
+}
+
+.icon:before {
+  content: "";
+  padding-right: 20px;
+  border-left: 7px solid #9cb4a4;
+}
+
+#index #wrap {
+  background-color: transparent;
+  margin-top: 0px;
+  padding: 0;
+}
+
+#cast {
+  background-image: url(../images-2/top60.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+.name {
+  margin-top: 60px;
+  padding-top: 10px;
+  border-top: 1px solid #ccc;
+}
+
+.shiro a {
+  color: #fec600;
+}
+
+.aoi a {
+  color: #d21602;
+}
+
+.kimapuri a {
+  color: #0099d4;
+}
+.nozaki a {
+  color: #745441;
+}
+.niban a {
+  color: #009ea6;
+}
+.tomi a {
+  color: #ee60af;
+}
+.forgeru a {
+  color: #00a140;
+}
+.nokkuso a {
+  color: #5f2c77;
+}
+.nic a {
+  color: #e50065;
+}
+
+.main a:hover{
+  text-decoration: none;
+}
+
+.main {
+  width: 700px;
+  margin: 0 10px;
+  float: left;
+}
+
+.sidebar {
+  width: 300px;
+  margin: 0 10px 0 30px;
+  float: right;
+  font-family: 'Exo 2', 'sans-serif';
+}
+
+.sidebar h2 {
+  margin-bottom: 10px;
+}
+
+.sidebar ul {
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.sidebar a {
+  color: #000;
+}
+.sidebar li a:hover {
+  text-decoration: none;
+}
+
+.cast-img {
+  margin-right: 20px;
+}
+
+.sidebar ul {
+  list-style: square;
+}
+
+.sidebar li {
+  margin-left: 15px;
+}
+
+#history {
+  background-image: url(../images-2/top60.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+#history .history th {
+  width: 240px;
+  background-color: #f0f0f0;
+  padding: 12px 0;
+  border: 1px solid #ccc;
+}
+#history .history td {
+  width: 660px;
+  padding: 12px 0 12px 40px;
+  border: 1px solid #ccc;
+}
+
+.movie {
+  margin-right:30px;
+}
